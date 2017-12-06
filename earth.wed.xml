@@ -102,6 +102,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
+                <sel id="4108"/>
                 <sel id="5830"/>
             </selection>
         </object>
@@ -259,8 +260,7 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="4108"/>
-                <child id="5830"/>
+                <child id="5831"/>
                 <child id="5"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
@@ -352,7 +352,8 @@
                 <child id="706"/>
                 <child id="4121"/>
                 <child id="64"/>
-                <child id="5831"/>
+                <child id="4108"/>
+                <child id="5830"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Cark Airfield"/>
             <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="1" icao="EG15" kind="Airport" scenery_id="-1"/>
@@ -528,7 +529,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.151715934" longitude="-2.969958956" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156651336" longitude="-2.969194401" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="4173" parent_id="5824">
@@ -551,7 +552,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.151695971" longitude="-2.929110221" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156631373" longitude="-2.928345666" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="4174" parent_id="5824">
@@ -574,7 +575,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167760825" longitude="-2.929128359" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172696227" longitude="-2.928363804" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="4175" parent_id="5824">
@@ -597,7 +598,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167760825" longitude="-2.969891880" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172696227" longitude="-2.969127325" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_ObjPlacement" id="4176" parent_id="5824">
@@ -5698,12 +5699,28 @@
             <hierarchy hidden="0" locked="0" name="Node 25"/>
             <point latitude="54.159599695" longitude="-2.956691526"/>
         </object>
+        <object class="WED_ObjPlacement" id="4665" parent_id="5824">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
+            <point heading="172.41" latitude="54.160271206" longitude="-2.965993223"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="570" parent_id="543">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 26"/>
             <point latitude="54.159667890" longitude="-2.956774707"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4666" parent_id="5824">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
+            <point heading="171.47" latitude="54.160197408" longitude="-2.965973324"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="571" parent_id="543">
             <sources/>
@@ -5712,6 +5729,14 @@
             <hierarchy hidden="0" locked="0" name="Node 27"/>
             <point latitude="54.159697117" longitude="-2.956891160"/>
         </object>
+        <object class="WED_ObjPlacement" id="4667" parent_id="5824">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
+            <point heading="158.96" latitude="54.160115842" longitude="-2.965960058"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="572" parent_id="543">
             <sources/>
             <viewers/>
@@ -5719,12 +5744,28 @@
             <hierarchy hidden="0" locked="0" name="Node 28"/>
             <point latitude="54.159736086" longitude="-2.957024249"/>
         </object>
+        <object class="WED_ObjPlacement" id="4668" parent_id="5824">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
+            <point heading="165.07" latitude="54.160034276" longitude="-2.965946792"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
+        </object>
         <object class="WED_SimpleBoundaryNode" id="573" parent_id="543">
             <sources/>
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Node 29"/>
             <point latitude="54.159784798" longitude="-2.957107430"/>
+        </object>
+        <object class="WED_ObjPlacement" id="4669" parent_id="5824">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
+            <point heading="172.88" latitude="54.159972131" longitude="-2.965900360"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_SimpleBoundaryNode" id="574" parent_id="543">
             <sources/>
@@ -8198,7 +8239,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.098007742" longitude="-3.072768994" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.102943144" longitude="-3.072004439" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1089" parent_id="1087">
@@ -8206,7 +8247,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.098787030" longitude="-2.857451108" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.103722432" longitude="-2.856686553" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1090" parent_id="1087">
@@ -8214,7 +8255,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.162101645" longitude="-2.859097324" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167037047" longitude="-2.858332769" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1091" parent_id="1087">
@@ -8222,7 +8263,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.162854425" longitude="-3.073873564" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167789827" longitude="-3.073109009" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="1092" parent_id="5830">
@@ -8250,7 +8291,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158571325" longitude="-3.071119972" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163506727" longitude="-3.070355417" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1095" parent_id="1093">
@@ -8258,7 +8299,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159116016" longitude="-2.844155019" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164051418" longitude="-2.843390464" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1096" parent_id="1093">
@@ -8266,7 +8307,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.228015375" longitude="-2.846589657" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.232950777" longitude="-2.845825102" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1097" parent_id="1093">
@@ -8274,7 +8315,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.228593536" longitude="-3.073202240" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.233528938" longitude="-3.072437685" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="1098" parent_id="5830">
@@ -8638,7 +8679,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.132663818" longitude="-2.892750400" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.137599220" longitude="-2.891985845" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1148" parent_id="1146">
@@ -8646,7 +8687,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.131651443" longitude="-2.752972722" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.136586845" longitude="-2.752208167" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1149" parent_id="1146">
@@ -8654,7 +8695,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.220710742" longitude="-2.754038895" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.225646144" longitude="-2.753274340" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="1150" parent_id="1146">
@@ -8662,7 +8703,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.220292828" longitude="-2.895937751" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.225228230" longitude="-2.895173196" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="1151" parent_id="5830">
@@ -15834,7 +15875,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.207883826" longitude="-2.899521009" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.212819228" longitude="-2.898756454" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2136" parent_id="2134">
@@ -15842,7 +15883,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.208335124" longitude="-2.740262009" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.213270526" longitude="-2.739497454" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2137" parent_id="2134">
@@ -15850,7 +15891,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.256470279" longitude="-2.740260662" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.261405681" longitude="-2.739496107" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2138" parent_id="2134">
@@ -15858,7 +15899,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.256018981" longitude="-2.899519661" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.260954383" longitude="-2.898755106" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2139" parent_id="5830">
@@ -15886,7 +15927,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.218732731" longitude="-3.100601337" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.223668133" longitude="-3.099836782" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2142" parent_id="2140">
@@ -15894,7 +15935,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.218535025" longitude="-3.020339109" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.223470427" longitude="-3.019574554" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2143" parent_id="2140">
@@ -15902,7 +15943,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.256121592" longitude="-3.020339109" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.261056994" longitude="-3.019574554" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2144" parent_id="2140">
@@ -15910,7 +15951,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.256319298" longitude="-3.100601337" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.261254700" longitude="-3.099836782" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2145" parent_id="5830">
@@ -15938,7 +15979,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.034507696" longitude="-3.353469140" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.039443098" longitude="-3.352704585" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2148" parent_id="2146">
@@ -15946,7 +15987,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.039053683" longitude="-3.041719868" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.043989085" longitude="-3.040955313" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2149" parent_id="2146">
@@ -15954,7 +15995,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166495635" longitude="-3.041719868" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171431037" longitude="-3.040955313" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2150" parent_id="2146">
@@ -15962,7 +16003,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167271594" longitude="-3.352032104" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172206996" longitude="-3.351267549" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2151" parent_id="5830">
@@ -15990,7 +16031,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.086294050" longitude="-3.278594003" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.091229452" longitude="-3.277829448" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2154" parent_id="2152">
@@ -15998,7 +16039,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.087391087" longitude="-3.169467470" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.092326489" longitude="-3.168702915" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2155" parent_id="2152">
@@ -16006,7 +16047,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.134205221" longitude="-3.168659837" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.139140623" longitude="-3.167895282" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2156" parent_id="2152">
@@ -16014,7 +16055,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.134618879" longitude="-3.278319759" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.139554281" longitude="-3.277555204" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2157" parent_id="5830">
@@ -16042,7 +16083,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156982468" longitude="-2.971360801" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161917870" longitude="-2.970596246" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2160" parent_id="2158">
@@ -16050,7 +16091,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156970735" longitude="-2.955568833" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161906137" longitude="-2.954804278" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2161" parent_id="2158">
@@ -16058,7 +16099,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161603956" longitude="-2.955541208" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166539358" longitude="-2.954776653" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2162" parent_id="2158">
@@ -16066,7 +16107,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161603956" longitude="-2.971393285" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166539358" longitude="-2.970628730" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2163" parent_id="4108">
@@ -16094,7 +16135,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.154134396" longitude="-2.969250659" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159069798" longitude="-2.968486104" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2166" parent_id="2164">
@@ -16102,7 +16143,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.154123062" longitude="-2.953304861" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159058464" longitude="-2.952540306" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2167" parent_id="2164">
@@ -16110,7 +16151,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158817775" longitude="-2.953308702" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163753177" longitude="-2.952544147" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2168" parent_id="2164">
@@ -16118,7 +16159,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158833056" longitude="-2.969059311" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163768458" longitude="-2.968294756" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2169" parent_id="4108">
@@ -16146,7 +16187,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.151882369" longitude="-2.968918981" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156817771" longitude="-2.968154426" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2172" parent_id="2170">
@@ -16154,7 +16195,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.151841535" longitude="-2.952952219" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156776937" longitude="-2.952187664" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2173" parent_id="2170">
@@ -16162,7 +16203,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155411154" longitude="-2.952955058" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160346556" longitude="-2.952190503" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2174" parent_id="2170">
@@ -16170,7 +16211,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155348887" longitude="-2.968859688" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160284289" longitude="-2.968095133" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2175" parent_id="4108">
@@ -16198,7 +16239,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168453145" longitude="-2.971708820" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173388547" longitude="-2.970944265" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2178" parent_id="2176">
@@ -16206,7 +16247,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168453145" longitude="-2.957955634" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173388547" longitude="-2.957191079" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2179" parent_id="2176">
@@ -16214,7 +16255,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173049730" longitude="-2.957826121" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.177985132" longitude="-2.957061566" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2180" parent_id="2176">
@@ -16222,7 +16263,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173049730" longitude="-2.971807806" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.177985132" longitude="-2.971043251" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2181" parent_id="4108">
@@ -16250,7 +16291,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168240612" longitude="-2.984818327" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173176014" longitude="-2.984053772" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2184" parent_id="2182">
@@ -16258,7 +16299,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168214073" longitude="-2.974832389" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173149475" longitude="-2.974067834" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2185" parent_id="2182">
@@ -16266,7 +16307,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171755203" longitude="-2.974877711" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176690605" longitude="-2.974113156" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2186" parent_id="2182">
@@ -16274,7 +16315,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171781741" longitude="-2.984863650" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176717143" longitude="-2.984099095" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2187" parent_id="4108">
@@ -16302,7 +16343,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168376715" longitude="-2.979523285" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173312117" longitude="-2.978758730" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2190" parent_id="2188">
@@ -16310,7 +16351,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168414130" longitude="-2.965828107" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173349532" longitude="-2.965063552" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2191" parent_id="2188">
@@ -16318,7 +16359,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173193629" longitude="-2.965990142" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.178129031" longitude="-2.965225587" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2192" parent_id="2188">
@@ -16326,7 +16367,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173218749" longitude="-2.979501026" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.178154151" longitude="-2.978736471" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2193" parent_id="4108">
@@ -16354,7 +16395,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167292451" longitude="-2.982673196" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172227853" longitude="-2.981908641" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2208" parent_id="2206">
@@ -16362,7 +16403,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167239733" longitude="-2.966628652" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172175135" longitude="-2.965864097" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2209" parent_id="2206">
@@ -16370,7 +16411,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169965407" longitude="-2.966693154" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174900809" longitude="-2.965928599" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2210" parent_id="2206">
@@ -16378,7 +16419,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170018125" longitude="-2.982737698" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174953527" longitude="-2.981973143" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2211" parent_id="4108">
@@ -16484,7 +16525,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163711874" longitude="-2.970805944" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168647276" longitude="-2.970041389" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2223" parent_id="2221">
@@ -16492,7 +16533,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163710559" longitude="-2.957109186" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168645961" longitude="-2.956344631" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2224" parent_id="2221">
@@ -16500,7 +16541,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168384551" longitude="-2.957193584" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173319953" longitude="-2.956429029" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2225" parent_id="2221">
@@ -16508,7 +16549,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168358994" longitude="-2.970949635" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173294396" longitude="-2.970185080" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2226" parent_id="4108">
@@ -16536,7 +16577,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160803918" longitude="-2.998331413" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165739320" longitude="-2.997566858" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2233" parent_id="2231">
@@ -16544,7 +16585,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160778030" longitude="-2.985544286" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165713432" longitude="-2.984779731" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2234" parent_id="2231">
@@ -16552,7 +16593,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165517155" longitude="-2.985306777" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170452557" longitude="-2.984542222" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2235" parent_id="2231">
@@ -16560,7 +16601,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165638471" longitude="-2.998142493" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170573873" longitude="-2.997377938" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2236" parent_id="4108">
@@ -16588,7 +16629,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161009456" longitude="-2.989120730" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165944858" longitude="-2.988356175" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2239" parent_id="2237">
@@ -16596,7 +16637,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161495740" longitude="-2.971612998" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166431142" longitude="-2.970848443" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2240" parent_id="2237">
@@ -16604,7 +16645,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166318563" longitude="-2.971802485" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171253965" longitude="-2.971037930" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2241" parent_id="2237">
@@ -16612,7 +16653,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166031641" longitude="-2.988499909" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170967043" longitude="-2.987735354" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2242" parent_id="4108">
@@ -16640,7 +16681,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161179572" longitude="-2.981394963" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166114974" longitude="-2.980630408" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2245" parent_id="2243">
@@ -16648,7 +16689,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161394346" longitude="-2.967728230" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166329748" longitude="-2.966963675" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2246" parent_id="2243">
@@ -16656,7 +16697,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165636786" longitude="-2.967698839" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170572188" longitude="-2.966934284" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2247" parent_id="2243">
@@ -16664,7 +16705,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165868566" longitude="-2.982458210" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170803968" longitude="-2.981693655" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2248" parent_id="4108">
@@ -16692,7 +16733,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164938789" longitude="-2.996925408" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169874191" longitude="-2.996160853" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2251" parent_id="2249">
@@ -16700,7 +16741,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164719021" longitude="-2.983210951" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169654423" longitude="-2.982446396" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2252" parent_id="2249">
@@ -16708,7 +16749,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169854894" longitude="-2.983829817" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174790296" longitude="-2.983065262" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2253" parent_id="2249">
@@ -16716,7 +16757,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169883900" longitude="-2.997133312" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174819302" longitude="-2.996368757" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2254" parent_id="4108">
@@ -16744,7 +16785,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168389373" longitude="-2.997179618" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173324775" longitude="-2.996415063" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2257" parent_id="2255">
@@ -16752,7 +16793,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168526728" longitude="-2.981598439" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173462130" longitude="-2.980833884" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2258" parent_id="2255">
@@ -16760,7 +16801,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173248751" longitude="-2.981367387" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.178184153" longitude="-2.980602832" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2259" parent_id="2255">
@@ -16768,7 +16809,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.173398895" longitude="-2.997494222" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.178334297" longitude="-2.996729667" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2260" parent_id="4108">
@@ -16796,7 +16837,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158370674" longitude="-2.991657351" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163306076" longitude="-2.990892796" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2286" parent_id="2284">
@@ -16804,7 +16845,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158338856" longitude="-2.976852707" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163274258" longitude="-2.976088152" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2287" parent_id="2284">
@@ -16812,7 +16853,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.162794052" longitude="-2.976865578" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167729454" longitude="-2.976101023" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2288" parent_id="2284">
@@ -16820,7 +16861,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.162814761" longitude="-2.991102623" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167750163" longitude="-2.990338068" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2289" parent_id="4108">
@@ -18408,7 +18449,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161484808" longitude="-2.969533812" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166420210" longitude="-2.968769257" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2487" parent_id="2485">
@@ -18416,7 +18457,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161818519" longitude="-2.956460603" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166753921" longitude="-2.955696048" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2488" parent_id="2485">
@@ -18424,7 +18465,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164700287" longitude="-2.956268765" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169635689" longitude="-2.955504210" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2489" parent_id="2485">
@@ -18432,7 +18473,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164687170" longitude="-2.969567463" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169622572" longitude="-2.968802908" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2490" parent_id="4108">
@@ -18992,7 +19033,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156058838" longitude="-2.985204951" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160994240" longitude="-2.984440396" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2561" parent_id="2559">
@@ -19000,7 +19041,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156348892" longitude="-2.969978322" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161284294" longitude="-2.969213767" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2562" parent_id="2559">
@@ -19008,7 +19049,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161976441" longitude="-2.967650461" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166911843" longitude="-2.966885906" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2563" parent_id="2559">
@@ -19016,7 +19057,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161412923" longitude="-2.985399705" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166348325" longitude="-2.984635150" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2564" parent_id="4108">
@@ -19044,7 +19085,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.153955246" longitude="-2.985259387" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158890648" longitude="-2.984494832" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2567" parent_id="2565">
@@ -19052,7 +19093,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.153670819" longitude="-2.968925008" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158606221" longitude="-2.968160453" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2568" parent_id="2565">
@@ -19060,7 +19101,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158930086" longitude="-2.969346041" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163865488" longitude="-2.968581486" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2569" parent_id="2565">
@@ -19068,7 +19109,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.158761940" longitude="-2.984665235" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163697342" longitude="-2.983900680" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2570" parent_id="4108">
@@ -19096,7 +19137,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167388459" longitude="-2.971037841" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172323861" longitude="-2.970273286" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2573" parent_id="2571">
@@ -19104,7 +19145,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167374025" longitude="-2.955470979" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172309427" longitude="-2.954706424" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2574" parent_id="2571">
@@ -19112,7 +19153,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171234888" longitude="-2.955513004" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176170290" longitude="-2.954748449" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2575" parent_id="2571">
@@ -19120,7 +19161,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171392592" longitude="-2.971147634" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176327994" longitude="-2.970383079" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2576" parent_id="4108">
@@ -19148,7 +19189,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.154835991" longitude="-2.992617296" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159771393" longitude="-2.991852741" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2579" parent_id="2577">
@@ -19156,7 +19197,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.154906860" longitude="-2.975504220" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159842262" longitude="-2.974739665" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2580" parent_id="2577">
@@ -19164,7 +19205,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160195947" longitude="-2.975504220" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165131349" longitude="-2.974739665" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2581" parent_id="2577">
@@ -19172,7 +19213,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160125077" longitude="-2.992617296" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165060479" longitude="-2.991852741" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2582" parent_id="4108">
@@ -19200,7 +19241,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155634125" longitude="-3.005460832" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160569527" longitude="-3.004696277" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2585" parent_id="2583">
@@ -19208,7 +19249,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155558708" longitude="-2.989066286" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160494110" longitude="-2.988301731" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2586" parent_id="2583">
@@ -19216,7 +19257,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160935092" longitude="-2.988764701" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165870494" longitude="-2.988000146" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2587" parent_id="2583">
@@ -19224,7 +19265,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160743107" longitude="-3.004710153" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165678509" longitude="-3.003945598" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2588" parent_id="4108">
@@ -19252,7 +19293,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159323174" longitude="-3.004870009" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164258576" longitude="-3.004105454" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2591" parent_id="2589">
@@ -19260,7 +19301,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.159123114" longitude="-2.988201438" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164058516" longitude="-2.987436883" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2592" parent_id="2589">
@@ -19268,7 +19309,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165541956" longitude="-2.988410186" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170477358" longitude="-2.987645631" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2593" parent_id="2589">
@@ -19276,7 +19317,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165794289" longitude="-3.004534332" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170729691" longitude="-3.003769777" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2594" parent_id="4108">
@@ -19304,7 +19345,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156917989" longitude="-2.981161459" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161853391" longitude="-2.980396904" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2597" parent_id="2595">
@@ -19312,7 +19353,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.156935077" longitude="-2.968001508" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.161870479" longitude="-2.967236953" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2598" parent_id="2595">
@@ -19320,7 +19361,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.162747769" longitude="-2.967010181" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167683171" longitude="-2.966245626" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2599" parent_id="2595">
@@ -19328,7 +19369,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.162448721" longitude="-2.982037749" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167384123" longitude="-2.981273194" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2600" parent_id="4108">
@@ -19356,7 +19397,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163058775" longitude="-2.983465850" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167994177" longitude="-2.982701295" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2603" parent_id="2601">
@@ -19364,7 +19405,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.163656734" longitude="-2.969370325" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.168592136" longitude="-2.968605770" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2604" parent_id="2601">
@@ -19372,7 +19413,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169598257" longitude="-2.969876479" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174533659" longitude="-2.969111924" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2605" parent_id="2601">
@@ -19380,7 +19421,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169807420" longitude="-2.984968094" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174742822" longitude="-2.984203539" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2606" parent_id="4108">
@@ -19408,7 +19449,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167851683" longitude="-2.965974483" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172787085" longitude="-2.965209928" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2609" parent_id="2607">
@@ -19416,7 +19457,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.167200060" longitude="-2.948089236" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172135462" longitude="-2.947324681" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2610" parent_id="2607">
@@ -19424,7 +19465,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171710201" longitude="-2.948507507" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176645603" longitude="-2.947742952" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2611" parent_id="2607">
@@ -19432,7 +19473,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.172924848" longitude="-2.964332060" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.177860250" longitude="-2.963567505" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2612" parent_id="4108">
@@ -19460,7 +19501,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.165168928" longitude="-2.952881185" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170104330" longitude="-2.952116630" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2615" parent_id="2613">
@@ -19468,7 +19509,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.164935060" longitude="-2.938339662" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169870462" longitude="-2.937575107" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2616" parent_id="2613">
@@ -19476,7 +19517,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169816524" longitude="-2.938412277" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174751926" longitude="-2.937647722" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2617" parent_id="2613">
@@ -19484,7 +19525,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.170050392" longitude="-2.952953799" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.174985794" longitude="-2.952189244" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2618" parent_id="4108">
@@ -19512,7 +19553,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166327561" longitude="-2.944602654" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171262963" longitude="-2.943838099" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2621" parent_id="2619">
@@ -19520,7 +19561,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.166788211" longitude="-2.928097012" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171723613" longitude="-2.927332457" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2622" parent_id="2619">
@@ -19528,7 +19569,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171684108" longitude="-2.927824683" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176619510" longitude="-2.927060128" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2623" parent_id="2619">
@@ -19536,7 +19577,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.171719542" longitude="-2.945298604" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.176654944" longitude="-2.944534049" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2624" parent_id="4108">
@@ -31212,13 +31253,14 @@
             <point heading="0.00" latitude="54.170611287" longitude="-2.947731577"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/forests/autogen_tree_any.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_Group" id="4108" parent_id="4">
+        <object class="WED_Group" id="4108" parent_id="5">
             <sources/>
             <viewers/>
             <children>
                 <child id="2236"/>
                 <child id="2490"/>
                 <child id="2576"/>
+                <child id="2612"/>
                 <child id="2181"/>
                 <child id="2163"/>
                 <child id="2169"/>
@@ -31233,7 +31275,6 @@
                 <child id="2248"/>
                 <child id="2254"/>
                 <child id="2260"/>
-                <child id="2612"/>
                 <child id="2564"/>
                 <child id="2570"/>
                 <child id="2289"/>
@@ -33355,46 +33396,6 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
             <point heading="165.96" latitude="54.159542735" longitude="-2.962711462"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="4665" parent_id="5824">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
-            <point heading="172.41" latitude="54.160271206" longitude="-2.965993223"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="4666" parent_id="5824">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
-            <point heading="171.47" latitude="54.160197408" longitude="-2.965973324"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="4667" parent_id="5824">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
-            <point heading="158.96" latitude="54.160115842" longitude="-2.965960058"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="4668" parent_id="5824">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
-            <point heading="165.07" latitude="54.160034276" longitude="-2.965946792"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="4669" parent_id="5824">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="static_caravan.obj"/>
-            <point heading="172.88" latitude="54.159972131" longitude="-2.965900360"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/buildings/static_caravan.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="4670" parent_id="5824">
@@ -46437,7 +46438,7 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Tourers"/>
         </object>
-        <object class="WED_Group" id="5830" parent_id="4">
+        <object class="WED_Group" id="5830" parent_id="5">
             <sources/>
             <viewers/>
             <children>
@@ -46452,7 +46453,7 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Base Images"/>
         </object>
-        <object class="WED_Group" id="5831" parent_id="5">
+        <object class="WED_Group" id="5831" parent_id="4">
             <sources/>
             <viewers/>
             <children>
@@ -47576,16 +47577,16 @@
             <item value="5831"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
-        <pref name="doc/use_feet" value="0"/>
-        <pref name="map/east" value="-2.956048"/>
-        <pref name="map/north" value="54.173956"/>
+        <pref name="doc/use_feet" value="1"/>
+        <pref name="map/east" value="-2.783468"/>
+        <pref name="map/north" value="54.278763"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.152121"/>
+        <pref name="map/south" value="54.066765"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-3.001184"/>
+        <pref name="map/west" value="-3.111080"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -47659,9 +47660,9 @@
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="991"/>
         <pref name="window/main_split" value="360"/>
-        <pref name="window/main_split2" value="1609"/>
-        <pref name="window/prev_split" value="389"/>
-        <pref name="window/prop_split" value="348"/>
+        <pref name="window/main_split2" value="1322"/>
+        <pref name="window/prev_split" value="399"/>
+        <pref name="window/prop_split" value="304"/>
         <pref name="window/width" value="1904"/>
         <pref name="window/x_loc" value="1920"/>
         <pref name="window/y_loc" value="0"/>
