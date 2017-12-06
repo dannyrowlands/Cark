@@ -102,7 +102,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="4"/>
+                <sel id="2211"/>
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -259,6 +259,8 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="4108"/>
+                <child id="5830"/>
                 <child id="5831"/>
                 <child id="5"/>
             </children>
@@ -351,8 +353,6 @@
                 <child id="706"/>
                 <child id="4121"/>
                 <child id="64"/>
-                <child id="4108"/>
-                <child id="5830"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Cark Airfield"/>
             <airport always_flatten="0" drive_on_left="0" elevation="0.0" has_atc="1" icao="EG15" kind="Airport" scenery_id="-1"/>
@@ -19412,7 +19412,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169594723" longitude="-2.969880667" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169479853" longitude="-2.969880667" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="2605" parent_id="2601">
@@ -19420,7 +19420,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169803886" longitude="-2.984972282" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.169875679" longitude="-2.984776105" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_DrapedOrthophoto" id="2606" parent_id="4108">
@@ -31252,12 +31252,11 @@
             <point heading="0.00" latitude="54.170611287" longitude="-2.947731577"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/forests/autogen_tree_any.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_Group" id="4108" parent_id="5">
+        <object class="WED_Group" id="4108" parent_id="4">
             <sources/>
             <viewers/>
             <children>
                 <child id="2236"/>
-                <child id="2490"/>
                 <child id="2576"/>
                 <child id="2612"/>
                 <child id="2181"/>
@@ -31267,12 +31266,11 @@
                 <child id="2582"/>
                 <child id="2175"/>
                 <child id="2187"/>
-                <child id="2211"/>
-                <child id="2226"/>
                 <child id="2600"/>
                 <child id="2242"/>
                 <child id="2248"/>
                 <child id="2254"/>
+                <child id="2211"/>
                 <child id="2260"/>
                 <child id="2564"/>
                 <child id="2570"/>
@@ -31282,6 +31280,8 @@
                 <child id="2624"/>
                 <child id="2594"/>
                 <child id="2588"/>
+                <child id="2226"/>
+                <child id="2490"/>
             </children>
             <hierarchy hidden="0" locked="0" name="hiRes"/>
         </object>
@@ -46437,7 +46437,7 @@
             </children>
             <hierarchy hidden="0" locked="0" name="Tourers"/>
         </object>
-        <object class="WED_Group" id="5830" parent_id="5">
+        <object class="WED_Group" id="5830" parent_id="4">
             <sources/>
             <viewers/>
             <children>
@@ -47563,7 +47563,6 @@
             <item value="2151"/>
             <item value="2157"/>
             <item value="2499"/>
-            <item value="4108"/>
             <item value="5822"/>
             <item value="5823"/>
             <item value="5824"/>
@@ -47577,15 +47576,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-2.945577"/>
-        <pref name="map/north" value="54.174931"/>
+        <pref name="map/east" value="-2.951687"/>
+        <pref name="map/north" value="54.170673"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.160931"/>
+        <pref name="map/south" value="54.160320"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-2.967304"/>
+        <pref name="map/west" value="-2.988470"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -47657,13 +47656,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="1021"/>
+        <pref name="window/height" value="767"/>
         <pref name="window/main_split" value="128"/>
-        <pref name="window/main_split2" value="1119"/>
+        <pref name="window/main_split2" value="1733"/>
         <pref name="window/prev_split" value="409"/>
-        <pref name="window/prop_split" value="313"/>
-        <pref name="window/width" value="1904"/>
-        <pref name="window/x_loc" value="0"/>
+        <pref name="window/prop_split" value="184"/>
+        <pref name="window/width" value="3015"/>
+        <pref name="window/x_loc" value="2107"/>
         <pref name="window/y_loc" value="0"/>
     </prefs>
 </doc>
