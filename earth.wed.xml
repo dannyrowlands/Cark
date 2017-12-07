@@ -102,9 +102,21 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
+<<<<<<< HEAD
                 <sel id="4108"/>
                 <sel id="5830"/>
                 <sel id="5831"/>
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+                <sel id="2211"/>
+=======
+                <sel id="2226"/>
+>>>>>>> Stashed changes
+=======
+                <sel id="2226"/>
+>>>>>>> Stashed changes
+>>>>>>> develop
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -6204,7 +6216,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="flower_pot.obj"/>
-            <point heading="0.00" latitude="54.164791927" longitude="-2.963991072"/>
+            <point heading="0.00" latitude="54.164853676" longitude="-2.963997901"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/floraandfauna/flower_pot.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="711" parent_id="5827">
@@ -6212,7 +6224,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="flower_pot.obj"/>
-            <point heading="0.00" latitude="54.164791554" longitude="-2.964005080"/>
+            <point heading="-7.13" latitude="54.164853978" longitude="-2.964007722"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/floraandfauna/flower_pot.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="712" parent_id="5827">
@@ -6220,7 +6232,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="flower_pot.obj"/>
-            <point heading="0.00" latitude="54.164790962" longitude="-2.964018018"/>
+            <point heading="0.00" latitude="54.164854044" longitude="-2.964018777"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/floraandfauna/flower_pot.obj" show_level="1 Default"/>
         </object>
         <object class="WED_ObjPlacement" id="720" parent_id="5826">
@@ -46470,8 +46482,42 @@
                 <child id="186"/>
                 <child id="189"/>
                 <child id="67"/>
+                <child id="5832"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Excludes"/>
+        </object>
+        <object class="WED_ExclusionZone" id="5832" parent_id="5831">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5833"/>
+                <child id="5834"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Exclusion Zone 1"/>
+            <excluzions>
+                <exclusion value="Objects"/>
+                <exclusion value="Facades"/>
+                <exclusion value="Forests"/>
+                <exclusion value="Beaches"/>
+                <exclusion value="Road Networks"/>
+                <exclusion value="Lines"/>
+                <exclusion value="Draped Polygons"/>
+                <exclusion value="String"/>
+            </excluzions>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="5833" parent_id="5832">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Start"/>
+            <point latitude="54.178729282" longitude="-3.052754093"/>
+        </object>
+        <object class="WED_SimpleBoundaryNode" id="5834" parent_id="5832">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="End"/>
+            <point latitude="54.163227816" longitude="-3.013539933"/>
         </object>
     </objects>
     <prefs>
@@ -47579,15 +47625,48 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
+<<<<<<< HEAD
         <pref name="map/east" value="-2.943689"/>
         <pref name="map/north" value="54.171756"/>
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <pref name="map/east" value="-2.951687"/>
+        <pref name="map/north" value="54.170673"/>
+=======
+        <pref name="map/east" value="-2.939811"/>
+        <pref name="map/north" value="54.175192"/>
+>>>>>>> Stashed changes
+=======
+        <pref name="map/east" value="-2.939811"/>
+        <pref name="map/north" value="54.175192"/>
+>>>>>>> Stashed changes
+>>>>>>> develop
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
+<<<<<<< HEAD
         <pref name="map/south" value="54.163128"/>
         <pref name="map/vertices_vis" value="1"/>
         <pref name="map/west" value="-2.974345"/>
+=======
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+        <pref name="map/south" value="54.160320"/>
+        <pref name="map/vertices_vis" value="1"/>
+        <pref name="map/west" value="-2.988470"/>
+=======
+        <pref name="map/south" value="54.152016"/>
+        <pref name="map/vertices_vis" value="1"/>
+        <pref name="map/west" value="-2.995382"/>
+>>>>>>> Stashed changes
+=======
+        <pref name="map/south" value="54.152016"/>
+        <pref name="map/vertices_vis" value="1"/>
+        <pref name="map/west" value="-2.995382"/>
+>>>>>>> Stashed changes
+>>>>>>> develop
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -47659,13 +47738,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="767"/>
+        <pref name="window/height" value="991"/>
         <pref name="window/main_split" value="128"/>
-        <pref name="window/main_split2" value="1733"/>
-        <pref name="window/prev_split" value="409"/>
-        <pref name="window/prop_split" value="184"/>
-        <pref name="window/width" value="3015"/>
-        <pref name="window/x_loc" value="2107"/>
+        <pref name="window/main_split2" value="1560"/>
+        <pref name="window/prev_split" value="419"/>
+        <pref name="window/prop_split" value="179"/>
+        <pref name="window/width" value="1904"/>
+        <pref name="window/x_loc" value="1920"/>
         <pref name="window/y_loc" value="0"/>
     </prefs>
 </doc>
