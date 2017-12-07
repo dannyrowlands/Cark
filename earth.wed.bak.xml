@@ -102,7 +102,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="1098"/>
+                <sel id="5847"/>
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -259,6 +259,12 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="5842"/>
+                <child id="5841"/>
+                <child id="5840"/>
+                <child id="5839"/>
+                <child id="5838"/>
+                <child id="5836"/>
                 <child id="5"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
@@ -46176,6 +46182,10 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="5851"/>
+                <child id="5850"/>
+                <child id="5849"/>
+                <child id="5847"/>
                 <child id="5566"/>
                 <child id="5565"/>
                 <child id="5564"/>
@@ -46504,6 +46514,86 @@
             <children/>
             <hierarchy hidden="0" locked="0" name="End"/>
             <point latitude="54.163227816" longitude="-3.013539933"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5836" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
+            <point heading="0.00" latitude="54.101441090" longitude="-3.217409269"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5838" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
+            <point heading="0.00" latitude="54.100954318" longitude="-3.216941035"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5839" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
+            <point heading="0.00" latitude="54.100429579" longitude="-3.216464437"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5840" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
+            <point heading="0.00" latitude="54.100366838" longitude="-3.217514898"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5841" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
+            <point heading="0.00" latitude="54.100937207" longitude="-3.218040129"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5842" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
+            <point heading="0.00" latitude="54.101393501" longitude="-3.218740436"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5847" parent_id="5826">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
+            <point heading="0.00" latitude="54.098142240" longitude="-3.222911391"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5849" parent_id="5826">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
+            <point heading="0.00" latitude="54.098143567" longitude="-3.221996082"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5850" parent_id="5826">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
+            <point heading="0.00" latitude="54.098680339" longitude="-3.222911391"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5851" parent_id="5826">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
+            <point heading="0.00" latitude="54.098680981" longitude="-3.221996737"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
         </object>
     </objects>
     <prefs>
@@ -47602,7 +47692,6 @@
             <item value="5823"/>
             <item value="5824"/>
             <item value="5825"/>
-            <item value="5826"/>
             <item value="5827"/>
             <item value="5828"/>
             <item value="5829"/>
@@ -47611,15 +47700,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-2.939728"/>
-        <pref name="map/north" value="54.174603"/>
+        <pref name="map/east" value="-3.220913"/>
+        <pref name="map/north" value="54.099002"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.151428"/>
+        <pref name="map/south" value="54.097749"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-2.995298"/>
+        <pref name="map/west" value="-3.223542"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -47641,7 +47730,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/placeholder.lin"/>
-        <pref name="map_Objects_Object" value="lib/g10/US/industrial/power/WindTbn2m5_100.obj"/>
+        <pref name="map_Objects_Object" value="lib/g10/US/industrial/light/FactC60x60_v0.obj"/>
         <pref name="map_Objects_Show with" value="561"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/airport/pavement/asphalt_3L.pol"/>
@@ -47692,7 +47781,7 @@
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
         <pref name="window/height" value="991"/>
-        <pref name="window/main_split" value="128"/>
+        <pref name="window/main_split" value="293"/>
         <pref name="window/main_split2" value="1560"/>
         <pref name="window/prev_split" value="419"/>
         <pref name="window/prop_split" value="179"/>
