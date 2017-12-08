@@ -102,7 +102,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="5852"/>
+                <sel id="5916"/>
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -46422,6 +46422,10 @@
                 <child id="5931"/>
                 <child id="5930"/>
                 <child id="5929"/>
+                <child id="5967"/>
+                <child id="5966"/>
+                <child id="5965"/>
+                <child id="5964"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Furniture"/>
         </object>
@@ -46873,10 +46877,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="5967"/>
-                <child id="5966"/>
-                <child id="5965"/>
-                <child id="5964"/>
                 <child id="5916"/>
                 <child id="5904"/>
                 <child id="5898"/>
@@ -47394,7 +47394,7 @@
             <point heading="52.69" latitude="54.107050237" longitude="-3.194926792"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/miscellaneous/sewage_aeration_basin.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="5964" parent_id="5880">
+        <object class="WED_ObjPlacement" id="5964" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -47402,7 +47402,7 @@
             <point heading="0.00" latitude="54.106628854" longitude="-3.194899151"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/miscellaneous/sewage_clarifer.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="5965" parent_id="5880">
+        <object class="WED_ObjPlacement" id="5965" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -47410,7 +47410,7 @@
             <point heading="0.00" latitude="54.106442473" longitude="-3.195299952"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/miscellaneous/sewage_clarifer.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="5966" parent_id="5880">
+        <object class="WED_ObjPlacement" id="5966" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -47418,7 +47418,7 @@
             <point heading="0.00" latitude="54.106183160" longitude="-3.195009717"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/miscellaneous/sewage_clarifer.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="5967" parent_id="5880">
+        <object class="WED_ObjPlacement" id="5967" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -48528,19 +48528,19 @@
             <item value="5828"/>
             <item value="5829"/>
             <item value="5830"/>
-            <item value="5880"/>
+            <item value="5831"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-3.152342"/>
-        <pref name="map/north" value="54.125580"/>
+        <pref name="map/east" value="-3.120084"/>
+        <pref name="map/north" value="54.146704"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.086067"/>
+        <pref name="map/south" value="54.078427"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-3.230967"/>
+        <pref name="map/west" value="-3.255923"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
