@@ -102,7 +102,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="5916"/>
+                <sel id="5879"/>
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -259,6 +259,12 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="6012"/>
+                <child id="6011"/>
+                <child id="6010"/>
+                <child id="6009"/>
+                <child id="6008"/>
+                <child id="6006"/>
                 <child id="5"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
@@ -350,8 +356,9 @@
                 <child id="706"/>
                 <child id="4121"/>
                 <child id="64"/>
-                <child id="5880"/>
                 <child id="4108"/>
+                <child id="5980"/>
+                <child id="5880"/>
                 <child id="5830"/>
                 <child id="5831"/>
             </children>
@@ -19225,58 +19232,6 @@
             <hierarchy hidden="0" locked="0" name="hiRes22.png"/>
             <draped_orthophoto heading="0.0" length="0.00" resource="ext_images\hiRes\hiRes22.png" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
-        <object class="WED_Ring" id="2583" parent_id="2588">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2584"/>
-                <child id="2585"/>
-                <child id="2586"/>
-                <child id="2587"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
-        </object>
-        <object class="WED_TextureBezierNode" id="2584" parent_id="2583">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155630591" longitude="-3.005465020" split="0"/>
-            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
-        </object>
-        <object class="WED_TextureBezierNode" id="2585" parent_id="2583">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155555174" longitude="-2.989070474" split="0"/>
-            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
-        </object>
-        <object class="WED_TextureBezierNode" id="2586" parent_id="2583">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 3"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160931558" longitude="-2.988768889" split="0"/>
-            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
-        </object>
-        <object class="WED_TextureBezierNode" id="2587" parent_id="2583">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Corner 4"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160739573" longitude="-3.004714341" split="0"/>
-            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
-        </object>
-        <object class="WED_DrapedOrthophoto" id="2588" parent_id="4108">
-            <sources/>
-            <viewers/>
-            <children>
-                <child id="2583"/>
-            </children>
-            <hierarchy hidden="0" locked="0" name="hiRes23.png"/>
-            <draped_orthophoto heading="0.0" length="0.00" resource="ext_images\hiRes\hiRes23.png" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
-        </object>
         <object class="WED_Ring" id="2589" parent_id="2594">
             <sources/>
             <viewers/>
@@ -31257,6 +31212,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="5973"/>
                 <child id="2576"/>
                 <child id="2236"/>
                 <child id="2612"/>
@@ -31280,7 +31236,6 @@
                 <child id="2618"/>
                 <child id="2624"/>
                 <child id="2594"/>
-                <child id="2588"/>
                 <child id="2226"/>
                 <child id="2490"/>
             </children>
@@ -46177,10 +46132,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="5851"/>
-                <child id="5850"/>
-                <child id="5849"/>
-                <child id="5847"/>
                 <child id="5566"/>
                 <child id="5565"/>
                 <child id="5564"/>
@@ -46255,13 +46206,13 @@
                 <child id="5922"/>
                 <child id="5921"/>
                 <child id="5920"/>
-                <child id="5873"/>
-                <child id="5872"/>
                 <child id="5871"/>
                 <child id="5959"/>
                 <child id="5957"/>
                 <child id="5951"/>
                 <child id="5943"/>
+                <child id="5992"/>
+                <child id="5991"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Buildings"/>
         </object>
@@ -46398,6 +46349,9 @@
                 <child id="251"/>
                 <child id="193"/>
                 <child id="192"/>
+                <child id="5983"/>
+                <child id="5982"/>
+                <child id="5981"/>
                 <child id="5842"/>
                 <child id="5841"/>
                 <child id="5840"/>
@@ -46426,6 +46380,7 @@
                 <child id="5966"/>
                 <child id="5965"/>
                 <child id="5964"/>
+                <child id="5994"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Furniture"/>
         </object>
@@ -46564,7 +46519,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
-            <point heading="0.00" latitude="54.101441090" longitude="-3.217409269"/>
+            <point heading="0.00" latitude="54.101269994" longitude="-3.217184848"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="5838" parent_id="5827">
@@ -46572,7 +46527,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
-            <point heading="0.00" latitude="54.100954318" longitude="-3.216941035"/>
+            <point heading="0.00" latitude="54.100734807" longitude="-3.216699077"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="5839" parent_id="5827">
@@ -46580,7 +46535,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
-            <point heading="0.00" latitude="54.100429579" longitude="-3.216464437"/>
+            <point heading="0.00" latitude="54.100199360" longitude="-3.216222479"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="5840" parent_id="5827">
@@ -46588,7 +46543,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
-            <point heading="0.00" latitude="54.100366838" longitude="-3.217514898"/>
+            <point heading="0.00" latitude="54.100168743" longitude="-3.217304897"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="5841" parent_id="5827">
@@ -46596,7 +46551,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
-            <point heading="0.00" latitude="54.100937207" longitude="-3.218040129"/>
+            <point heading="0.00" latitude="54.100757850" longitude="-3.217825563"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ObjPlacement" id="5842" parent_id="5827">
@@ -46604,40 +46559,8 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Sing_Tank_Large.obj"/>
-            <point heading="0.00" latitude="54.101393501" longitude="-3.218740436"/>
+            <point heading="0.00" latitude="54.101198083" longitude="-3.218562391"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Large.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="5847" parent_id="5826">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
-            <point heading="0.00" latitude="54.098142240" longitude="-3.222911391"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="5849" parent_id="5826">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
-            <point heading="0.00" latitude="54.098143567" longitude="-3.221996082"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="5850" parent_id="5826">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
-            <point heading="0.00" latitude="54.098680339" longitude="-3.222911391"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="5851" parent_id="5826">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="FactC60x60_v0.obj"/>
-            <point heading="0.00" latitude="54.098680981" longitude="-3.221996737"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/FactC60x60_v0.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_ExclusionZone" id="5852" parent_id="5831">
             <sources/>
@@ -46802,24 +46725,8 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Whs60x90L.obj"/>
-            <point heading="0.00" latitude="54.095632676" longitude="-3.224166412"/>
+            <point heading="0.00" latitude="54.095416855" longitude="-3.223934707"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/Whs60x90L.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="5872" parent_id="5826">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Whs60x120L.obj"/>
-            <point heading="0.00" latitude="54.096548651" longitude="-3.224153747"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/Whs60x120L.obj" show_level="4 Mega tons"/>
-        </object>
-        <object class="WED_ObjPlacement" id="5873" parent_id="5826">
-            <sources/>
-            <viewers/>
-            <children/>
-            <hierarchy hidden="0" locked="0" name="Whs60x120L.obj"/>
-            <point heading="-90.03" latitude="54.097133412" longitude="-3.225013215"/>
-            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/Whs60x120L.obj" show_level="4 Mega tons"/>
         </object>
         <object class="WED_Ring" id="5874" parent_id="5879">
             <sources/>
@@ -46837,7 +46744,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 1"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.090879448" longitude="-3.253796780" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.091178389" longitude="-3.253921440" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="5876" parent_id="5874">
@@ -46845,7 +46752,7 @@
             <viewers/>
             <children/>
             <hierarchy hidden="0" locked="0" name="Corner 2"/>
-            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.090826369" longitude="-3.188444931" split="0"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.091125310" longitude="-3.188569591" split="0"/>
             <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
         <object class="WED_TextureBezierNode" id="5877" parent_id="5874">
@@ -47425,6 +47332,258 @@
             <hierarchy hidden="0" locked="0" name="sewage_clarifer.obj"/>
             <point heading="0.00" latitude="54.106401955" longitude="-3.194608915"/>
             <obj_placement custom_msl="0" msl="0.000" resource="handyobjects/miscellaneous/sewage_clarifer.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_Ring" id="5968" parent_id="5973">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5969"/>
+                <child id="5970"/>
+                <child id="5971"/>
+                <child id="5972"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5969" parent_id="5968">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155442771" longitude="-3.003853974" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5970" parent_id="5968">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.155510808" longitude="-2.988761753" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5971" parent_id="5968">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160921101" longitude="-2.988809366" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5972" parent_id="5968">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.160853064" longitude="-3.003901587" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="5973" parent_id="4108">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5968"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="hiRes23.png"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="ext_images\hiRes\hiRes23.png" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+        </object>
+        <object class="WED_Ring" id="5974" parent_id="5979">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5975"/>
+                <child id="5976"/>
+                <child id="5977"/>
+                <child id="5978"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5975" parent_id="5974">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.098253015" longitude="-3.223869441" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5976" parent_id="5974">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.098261008" longitude="-3.213894402" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5977" parent_id="5974">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.102142698" longitude="-3.213922664" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="5978" parent_id="5974">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.102134705" longitude="-3.223897703" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="5979" parent_id="5980">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5974"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="hiRes10.png"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="ext_images\hiRes\Barrow\hiRes10.png" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+        </object>
+        <object class="WED_Group" id="5980" parent_id="5">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="5979"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="hiRes Barrow new"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5981" parent_id="5827">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Small.obj"/>
+            <point heading="0.00" latitude="54.099873444" longitude="-3.217750017"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5982" parent_id="5827">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Small.obj"/>
+            <point heading="0.00" latitude="54.099738525" longitude="-3.217769738"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5983" parent_id="5827">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Sing_Tank_Small.obj"/>
+            <point heading="0.00" latitude="54.099788638" longitude="-3.217552805"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fuel_Storage/Sing_Tank_Small.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5991" parent_id="5826">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Warehse15x30Dk.obj"/>
+            <point heading="-89.01" latitude="54.099318349" longitude="-3.218262781"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/Warehse15x30Dk.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5992" parent_id="5826">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Warehse13x30Lt.obj"/>
+            <point heading="64.54" latitude="54.099495671" longitude="-3.217868355"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/g10/US/industrial/light/Warehse13x30Lt.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="5994" parent_id="5827">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="2_horiz_tanks.agp"/>
+            <point heading="63.44" latitude="54.098929471" longitude="-3.216456283"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Fueling_Stations/2_horiz_tanks.agp" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_Ring" id="6001" parent_id="6006">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="6002"/>
+                <child id="6003"/>
+                <child id="6004"/>
+                <child id="6005"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="Image Boundary"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="6002" parent_id="6001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 1"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.096774949" longitude="-3.230398753" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="6003" parent_id="6001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 2"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.096782943" longitude="-3.217488209" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="0.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="6004" parent_id="6001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 3"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.100631773" longitude="-3.217488209" split="0"/>
+            <texture_node s="1.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_TextureBezierNode" id="6005" parent_id="6001">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Corner 4"/>
+            <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.100623780" longitude="-3.230398753" split="0"/>
+            <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
+        </object>
+        <object class="WED_DrapedOrthophoto" id="6006" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children>
+                <child id="6001"/>
+            </children>
+            <hierarchy hidden="0" locked="0" name="hiRes11.png"/>
+            <draped_orthophoto heading="0.0" length="0.00" resource="ext_images\hiRes\Barrow\hiRes11.png" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
+        </object>
+        <object class="WED_ObjPlacement" id="6008" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Fire_Station_Sm.agp"/>
+            <point heading="270.00" latitude="54.097027307" longitude="-3.225156419"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Misc_Buildings/Fire_Station_Sm.agp" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="6009" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Truck.obj"/>
+            <point heading="0.00" latitude="54.097296863" longitude="-3.225025407"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Vehicles/Cargo_Truck.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="6010" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Truck.obj"/>
+            <point heading="0.00" latitude="54.097296863" longitude="-3.224964647"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Vehicles/Cargo_Truck.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="6011" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Cargo_Container_6.obj"/>
+            <point heading="0.00" latitude="54.097070684" longitude="-3.224740100"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Container_6.obj" show_level="4 Mega tons"/>
+        </object>
+        <object class="WED_ObjPlacement" id="6012" parent_id="4">
+            <sources/>
+            <viewers/>
+            <children/>
+            <hierarchy hidden="0" locked="0" name="Stack_of_Cones.obj"/>
+            <point heading="0.00" latitude="54.096956045" longitude="-3.224932946"/>
+            <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Miscellaneous/Stack_of_Cones.obj" show_level="4 Mega tons"/>
         </object>
     </objects>
     <prefs>
@@ -48523,7 +48682,6 @@
             <item value="5823"/>
             <item value="5824"/>
             <item value="5825"/>
-            <item value="5826"/>
             <item value="5827"/>
             <item value="5828"/>
             <item value="5829"/>
@@ -48532,15 +48690,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-3.120084"/>
-        <pref name="map/north" value="54.146704"/>
+        <pref name="map/east" value="-3.198155"/>
+        <pref name="map/north" value="54.124652"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.078427"/>
+        <pref name="map/south" value="54.084439"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-3.255923"/>
+        <pref name="map/west" value="-3.275709"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
@@ -48548,7 +48706,7 @@
         <pref name="map_Boundary_Markings" value=""/>
         <pref name="map_Exclusions_Exclusions" value="114"/>
         <pref name="map_Facades_Height" value="10.000000"/>
-        <pref name="map_Facades_Resource" value="lib/g10/US/industrial/light/IL90x90x0v2.fac"/>
+        <pref name="map_Facades_Resource" value="lib/airport/Modern_Airports/Terminal_kit/term_building_BigHall_01.fac"/>
         <pref name="map_Forests_Density" value="1.000000"/>
         <pref name="map_Forests_Resource" value="lib/g8/broad_cld_sdry.for"/>
         <pref name="map_Helipad_Edge Lights" value="15"/>
@@ -48562,7 +48720,7 @@
         <pref name="map_Light Fixture_Approach Angle" value="3.000000"/>
         <pref name="map_Light Fixture_Fixture Type" value="35"/>
         <pref name="map_Lines_Resource" value="opensceneryx/placeholder.lin"/>
-        <pref name="map_Objects_Object" value="handyobjects/miscellaneous/sewage_clarifer.obj"/>
+        <pref name="map_Objects_Object" value="lib/airport/Common_Elements/Parking/Bollard.obj"/>
         <pref name="map_Objects_Show with" value="561"/>
         <pref name="map_Polygons_Heading" value="0.000000"/>
         <pref name="map_Polygons_Resource" value="lib/g10/US/industrial/light/IndLightFlatDry1.ags"/>
@@ -48612,13 +48770,13 @@
         <pref name="map_Truck Parking_Truck Type" value="154"/>
         <pref name="map_Vertex_Snap To Vertices" value="0"/>
         <pref name="map_Windsock_Lit" value="0"/>
-        <pref name="window/height" value="991"/>
+        <pref name="window/height" value="1021"/>
         <pref name="window/main_split" value="352"/>
         <pref name="window/main_split2" value="1560"/>
-        <pref name="window/prev_split" value="429"/>
-        <pref name="window/prop_split" value="189"/>
+        <pref name="window/prev_split" value="439"/>
+        <pref name="window/prop_split" value="248"/>
         <pref name="window/width" value="1904"/>
-        <pref name="window/x_loc" value="1920"/>
+        <pref name="window/x_loc" value="0"/>
         <pref name="window/y_loc" value="0"/>
     </prefs>
 </doc>
