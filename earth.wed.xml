@@ -102,7 +102,9 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-                <sel id="5879"/>
+                <sel id="4108"/>
+                <sel id="5880"/>
+                <sel id="5980"/>
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -259,12 +261,6 @@
             <sources/>
             <viewers/>
             <children>
-                <child id="6012"/>
-                <child id="6011"/>
-                <child id="6010"/>
-                <child id="6009"/>
-                <child id="6008"/>
-                <child id="6006"/>
                 <child id="5"/>
             </children>
             <hierarchy hidden="0" locked="0" name="world"/>
@@ -356,9 +352,9 @@
                 <child id="706"/>
                 <child id="4121"/>
                 <child id="64"/>
-                <child id="4108"/>
                 <child id="5980"/>
                 <child id="5880"/>
+                <child id="4108"/>
                 <child id="5830"/>
                 <child id="5831"/>
             </children>
@@ -46213,6 +46209,7 @@
                 <child id="5943"/>
                 <child id="5992"/>
                 <child id="5991"/>
+                <child id="6008"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Buildings"/>
         </object>
@@ -46381,6 +46378,10 @@
                 <child id="5965"/>
                 <child id="5964"/>
                 <child id="5994"/>
+                <child id="6012"/>
+                <child id="6011"/>
+                <child id="6010"/>
+                <child id="6009"/>
             </children>
             <hierarchy hidden="0" locked="0" name="Furniture"/>
         </object>
@@ -47441,6 +47442,7 @@
             <sources/>
             <viewers/>
             <children>
+                <child id="6006"/>
                 <child id="5979"/>
             </children>
             <hierarchy hidden="0" locked="0" name="hiRes Barrow new"/>
@@ -47536,7 +47538,7 @@
             <point ctrl_latitude_hi="0.000000000" ctrl_latitude_lo="0.000000000" ctrl_longitude_hi="0.000000000" ctrl_longitude_lo="0.000000000" latitude="54.100623780" longitude="-3.230398753" split="0"/>
             <texture_node s="0.0000" sc_hi="0.0000" sc_lo="0.0000" t="1.0000" tc_hi="0.0000" tc_lo="0.0000"/>
         </object>
-        <object class="WED_DrapedOrthophoto" id="6006" parent_id="4">
+        <object class="WED_DrapedOrthophoto" id="6006" parent_id="5980">
             <sources/>
             <viewers/>
             <children>
@@ -47545,7 +47547,7 @@
             <hierarchy hidden="0" locked="0" name="hiRes11.png"/>
             <draped_orthophoto heading="0.0" length="0.00" resource="ext_images\hiRes\Barrow\hiRes11.png" tex_bottom="0.000" tex_left="0.000" tex_right="0.000" tex_top="0.000" width="0.00"/>
         </object>
-        <object class="WED_ObjPlacement" id="6008" parent_id="4">
+        <object class="WED_ObjPlacement" id="6008" parent_id="5826">
             <sources/>
             <viewers/>
             <children/>
@@ -47553,7 +47555,7 @@
             <point heading="270.00" latitude="54.097027307" longitude="-3.225156419"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Misc_Buildings/Fire_Station_Sm.agp" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="6009" parent_id="4">
+        <object class="WED_ObjPlacement" id="6009" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -47561,7 +47563,7 @@
             <point heading="0.00" latitude="54.097296863" longitude="-3.225025407"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Vehicles/Cargo_Truck.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="6010" parent_id="4">
+        <object class="WED_ObjPlacement" id="6010" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -47569,7 +47571,7 @@
             <point heading="0.00" latitude="54.097296863" longitude="-3.224964647"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Common_Elements/Vehicles/Cargo_Truck.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="6011" parent_id="4">
+        <object class="WED_ObjPlacement" id="6011" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -47577,7 +47579,7 @@
             <point heading="0.00" latitude="54.097070684" longitude="-3.224740100"/>
             <obj_placement custom_msl="0" msl="0.000" resource="lib/airport/Ramp_Equipment/Cargo_Container_6.obj" show_level="4 Mega tons"/>
         </object>
-        <object class="WED_ObjPlacement" id="6012" parent_id="4">
+        <object class="WED_ObjPlacement" id="6012" parent_id="5827">
             <sources/>
             <viewers/>
             <children/>
@@ -48682,23 +48684,26 @@
             <item value="5823"/>
             <item value="5824"/>
             <item value="5825"/>
+            <item value="5826"/>
             <item value="5827"/>
             <item value="5828"/>
             <item value="5829"/>
             <item value="5830"/>
             <item value="5831"/>
+            <item value="5880"/>
+            <item value="5980"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-3.198155"/>
-        <pref name="map/north" value="54.124652"/>
+        <pref name="map/east" value="-3.198254"/>
+        <pref name="map/north" value="54.110940"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.084439"/>
+        <pref name="map/south" value="54.091547"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-3.275709"/>
+        <pref name="map/west" value="-3.235661"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
