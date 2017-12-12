@@ -110,25 +110,7 @@
             <children/>
             <hierarchy name="selection"/>
             <selection>
-<<<<<<< HEAD
-<<<<<<< HEAD
-                <sel id="4108"/>
-                <sel id="5830"/>
-                <sel id="5831"/>
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-                <sel id="2211"/>
-=======
-                <sel id="2226"/>
->>>>>>> Stashed changes
-=======
-                <sel id="2226"/>
->>>>>>> Stashed changes
->>>>>>> develop
-=======
                 <sel id="4"/>
->>>>>>> develop
             </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
@@ -31166,7 +31148,6 @@
             <viewers/>
             <children>
                 <child id="2576"/>
-                <child id="2236"/>
                 <child id="2612"/>
                 <child id="2181"/>
                 <child id="5973"/>
@@ -45431,10 +45412,6 @@
             <item value="2145"/>
             <item value="2499"/>
             <item value="4108"/>
-<<<<<<< HEAD
-            <item value="5822"/>
-=======
->>>>>>> develop
             <item value="5823"/>
             <item value="5824"/>
             <item value="5825"/>
@@ -45447,59 +45424,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <pref name="map/east" value="-2.943689"/>
-        <pref name="map/north" value="54.171756"/>
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <pref name="map/east" value="-2.951687"/>
-        <pref name="map/north" value="54.170673"/>
-=======
-        <pref name="map/east" value="-2.939811"/>
-        <pref name="map/north" value="54.175192"/>
->>>>>>> Stashed changes
-=======
-        <pref name="map/east" value="-2.939811"/>
-        <pref name="map/north" value="54.175192"/>
->>>>>>> Stashed changes
->>>>>>> develop
-=======
         <pref name="map/east" value="-2.967023"/>
         <pref name="map/north" value="54.172323"/>
->>>>>>> develop
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <pref name="map/south" value="54.163128"/>
-        <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-2.974345"/>
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        <pref name="map/south" value="54.160320"/>
-        <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-2.988470"/>
-=======
-        <pref name="map/south" value="54.152016"/>
-        <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-2.995382"/>
->>>>>>> Stashed changes
-=======
-        <pref name="map/south" value="54.152016"/>
-        <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-2.995382"/>
->>>>>>> Stashed changes
->>>>>>> develop
-=======
         <pref name="map/south" value="54.151264"/>
         <pref name="map/vertices_vis" value="1"/>
         <pref name="map/west" value="-3.008994"/>
->>>>>>> develop
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
