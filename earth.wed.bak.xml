@@ -45422,15 +45422,15 @@
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-2.971755"/>
-        <pref name="map/north" value="54.165988"/>
+        <pref name="map/east" value="-2.974028"/>
+        <pref name="map/north" value="54.165740"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.151364"/>
+        <pref name="map/south" value="54.151116"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-3.000902"/>
+        <pref name="map/west" value="-3.003175"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
