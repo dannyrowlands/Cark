@@ -109,7 +109,9 @@
             <viewers/>
             <children/>
             <hierarchy name="selection"/>
-            <selection/>
+            <selection>
+                <sel id="2612"/>
+            </selection>
         </object>
         <object class="WED_ObjPlacement" id="4098" parent_id="5823">
             <sources/>
@@ -31148,7 +31150,6 @@
                 <child id="5973"/>
                 <child id="2576"/>
                 <child id="2236"/>
-                <child id="2612"/>
                 <child id="2181"/>
                 <child id="2163"/>
                 <child id="2169"/>
@@ -31157,6 +31158,7 @@
                 <child id="2175"/>
                 <child id="2187"/>
                 <child id="2600"/>
+                <child id="2612"/>
                 <child id="2242"/>
                 <child id="2248"/>
                 <child id="2254"/>
@@ -45409,7 +45411,6 @@
             <item value="2139"/>
             <item value="2145"/>
             <item value="2499"/>
-            <item value="4108"/>
             <item value="5823"/>
             <item value="5824"/>
             <item value="5825"/>
@@ -45417,20 +45418,19 @@
             <item value="5827"/>
             <item value="5828"/>
             <item value="5829"/>
-            <item value="5830"/>
             <item value="5831"/>
         </pref>
         <pref name="doc/export_target" value="4"/>
         <pref name="doc/use_feet" value="1"/>
-        <pref name="map/east" value="-2.696649"/>
-        <pref name="map/north" value="54.278327"/>
+        <pref name="map/east" value="-2.947537"/>
+        <pref name="map/north" value="54.174396"/>
         <pref name="map/obj_density" value="5"/>
         <pref name="map/pavement_alpha" value="2"/>
         <pref name="map/preview_vis" value="1"/>
         <pref name="map/real_lines_vis" value="1"/>
-        <pref name="map/south" value="54.053010"/>
+        <pref name="map/south" value="54.164240"/>
         <pref name="map/vertices_vis" value="1"/>
-        <pref name="map/west" value="-3.144644"/>
+        <pref name="map/west" value="-2.967784"/>
         <pref name="map/world_map_vis" value="1"/>
         <pref name="map_Airport Beacon_Kind" value="69"/>
         <pref name="map_Boundary_.Markings" value=""/>
